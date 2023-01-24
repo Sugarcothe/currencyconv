@@ -1,0 +1,32 @@
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #c4e2c6;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+}
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #0a4d0e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0a4d0e;
+}
